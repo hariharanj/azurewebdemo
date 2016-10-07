@@ -1,0 +1,103 @@
+/* Put custom CSS styles here */
+
+/* --- header background image ---- */
+.uu-header {background-image: url("../../templates.utah.edu/_main-v2/_images/header/background/leaves.jpg");}
+
+
+/* ----------------------------------------
+	Calendar navigation list
+------------------------------------------*/
+ul.calendar-list {
+	float:right;
+	list-style:none;
+	margin:0 0 1em 0;
+	padding:0;
+	text-align:center;
+}
+
+ul.calendar-list li { display:inline; }
+
+ul.calendar-list a:link { 
+	border-right:1px solid #ccc;
+	padding :0 .5em;
+	text-decoration:none;
+}
+ul.calendar-list li:last-child a:link { border:none; }
+ul.calendar-list .current { font-weight:bold; }
+
+/* trumba calendar month list spacing fix*/
+#trumba\.spud\.0, #trumba\.spud\.1, #trumba\.spud\.2,
+#trumba\.spud\.3, #trumba\.spud\.4, #trumba\.spud\.5,
+#trumba\.spud\.6 {
+  line-height:1em;
+}
+
+/* -- HELPER CLASSES -- */
+
+
+/* -- remove top margin --*/
+.no-top-margin {
+	margin-top:0;
+}
+
+/* ----------------------------------------
+	HOME BANNER POOL PAGES
+------------------------------------------*/
+.home-banners #remote-pool {
+	list-style:none;
+	margin:2em 0;
+	padding:0;
+	position:relative;
+}
+.home-banners #remote-pool li {
+	background: no-repeat center top; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	margin:1em 0;
+	width:30%;
+	height:150px;
+}
+.home-banners #remote-pool .slide-text {
+	position:absolute;
+	left:35%;
+}
+.home-banners #remote-pool h2,
+.home-banners #remote-pool h3 {
+    margin:0;
+}
+.home-banners #remote-pool h3 {
+    font-size:1em
+}
+
+
+/* ----------------------------------------
+	SECONDARY PAGE NEWS FEED TEXT (SINGLE ITEM)
+------------------------------------------*/
+.panel-body .feed-text {
+	display:block;
+    font-size:.75em;
+    margin-top:.5em;
+  	text-transform:uppercase;
+}
+
+/* -------------------------------------------
+CUSTOM RESPONSIVE STYLES
+----------------------------------------------*/
+
+
+/* large devices and up */
+@media (min-width: 992px) { 
+	
+	/* menu changes to match homepage styles */
+	.nav-menu-wrap .uu-nav .dropdown-menu {		/* drop-down width */
+		width: 160px;
+	}
+	.uu-nav .navbar-nav .active > a:before {  	/* remove current arrow */
+    	display: none;
+	}
+	.dropdown-menu > li > a {					/* reduce drop-down padding */
+   		padding: 3px 15px;
+	}
+
+}

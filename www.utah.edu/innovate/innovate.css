@@ -1,0 +1,132 @@
+/* Styles and adjustments for Innovate - tlk */
+
+#mtn-header-bg{
+	background: #E8F5F3 url(images/mtn-header-bg.png) no-repeat bottom center;
+}
+
+.main-headline {
+	background: none;
+}
+
+#header-container a.button {
+	background: rgb(204, 0, 0);
+	border: 1px solid #fff;
+	border-radius:.5em;
+	color:white;
+	/* display: table; */
+	font: bold 1.15em/1.2em Helvetica, sans-serif;
+	letter-spacing:.045em;
+	margin: 5px;
+	padding: 0.7em 1.5em;
+	text-align:center;
+	text-decoration: none;	
+	text-transform: uppercase;
+	display:inline-block;
+}
+#header-container .button:hover,
+#header-container .button:active {
+	color:white;
+	background:rgb(153, 0, 0);
+	text-decoration: none;	
+ }
+ 
+#header-container a.button-2 {
+	background: #777;
+	border: 1px solid #fff;
+	border-radius:.5em;
+	color:white;
+	/* display: table; */
+	font: bold .9em/1.2em Helvetica, sans-serif;
+	letter-spacing:.045em;
+	margin: 5px;
+	padding: 0.7em 1.5em;
+	text-align:center;
+	text-decoration: none;	
+	text-transform: uppercase;
+	display:inline-block;
+}
+#header-container .button-2:hover,
+#header-container .button-2:active {
+	color:white;
+	background: #666;
+	text-decoration: none;	
+ }
+ 
+#header-container .content {
+	padding: 30px 30px 50px 30px;
+	text-align: center;
+}
+
+#header-container .content p{
+	margin: 40px 0;
+	color: #111;
+	font-size: 1.2em;
+	line-height: 2em;
+	padding: 0 5%;
+	font-style: italic;
+}
+
+#header-container h1 {
+	font-family: 'Open Sans Condensed', Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	font-weight: 700;
+	font-size: 5.5em;
+	line-height: 1em;
+	letter-spacing: 0;
+	color:#000;
+	text-shadow: 1px 1px #ddd;
+	
+}
+
+#header-container h2 {
+	font-family: 'Open Sans Condensed', Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	font-weight: 400;
+	font-size: 3.5em;
+	line-height: 1em;
+	letter-spacing: 0;
+	color:#000;
+	text-shadow: 1px 1px #ddd;
+}
+
+.eq-ht{
+  width: 98%;
+  float: left;
+  border: none;
+  margin: 20px 1%;
+  padding: 1%;
+}
+
+.mtn-container{
+	background: #F5E3E0 url(images/mtn-section-bg.png) no-repeat bottom center;
+	margin: 20px 0;
+	padding: 20px 1%;
+}
+
+.section-title{
+	font-family: 'Open Sans Condensed';
+	margin: 40px 0 5px 0;
+	font-weight: 400;
+	font-size: 3.25em;
+	letter-spacing: 0;
+	text-shadow: 1px 1px #ddd;
+	text-align: center;
+	color: #111;
+}
+
+#main-container a.button,
+#footer-container a.button {
+	display: inline-block; margin: 5px 0; overflow: visible;
+}
+
+#de {
+	display: none;
+}
+
+@media all and (max-width: 480px) {
+	#header-container h1 {font-size: 4em;}
+	#header-container h2 {font-size: 2.5em;}
+	.col-2 h3 {font-size:1.2em;}
+}

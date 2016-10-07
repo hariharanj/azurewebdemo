@@ -1,0 +1,96 @@
+
+
+#u-light {
+    height: 110px;
+    width:100%;
+    position: relative;
+}
+/* only hide if javaScrip is enabled */
+.js #u-light {
+	display: none;
+}
+
+.u-light-img {
+	background: -190px no-repeat #388ae6;
+	float: left;
+	height: 100%;
+    width: 50%;    
+}
+
+.u-light-text {
+	background-color: #000;
+    color: #838383;
+    float: right;
+    font: bold 20px 'Open Sans', sans-serif;
+   	height: 100%;
+    line-height: 1em;
+	text-align: left;
+    text-transform: uppercase;
+    width: 50%; 
+}
+
+.u-light-text span {
+	display: block;
+    margin: 30px 10px 0 0;
+}
+
+.u-light-close {
+	background: url(../_images/u-light/close.png) center no-repeat;
+	height: 30px;
+	position: absolute;
+	right: 10px;
+    top: 5px; 
+    width: 30px; 
+}
+/* if no js, hide button since it won't work */
+.no-js .u-light-close {display: none;}
+
+.u-light-close a {
+	height: 100%;
+	width: 100%;
+	display: block;
+}
+.u-light-close a:focus,
+.u-light-close a:hover {
+	outline: #fff dotted thin;
+}
+
+
+.u-light-white .u-light-img { 
+    background-image: url(../_images/u-light/light-the-U-white.gif);
+}
+.u-light-white-blink .u-light-img { 
+    background-image: url(../_images/u-light/light-the-U-white-blink.gif);
+}
+.u-light-red .u-light-img { 
+    background-image: url(../_images/u-light/light-the-U-red.gif);
+}
+.u-light-red-blink .u-light-img { 
+    background-image: url(../_images/u-light/light-the-U-red-blink.gif);
+} 
+
+
+@media only screen and (min-width: 380px) {
+	.u-light-img { 
+		background-position: right;
+	} 
+}
+
+@media only screen and (min-width: 769px) { 
+    .u-light-text {
+        font-size: 40px;
+    }		
+}
+
+@media only screen and (min-width: 769px) { 
+    .u-light-text {
+        font-size: 28px;
+    }         
+}
+
+@media only screen and (min-width: 1124px) { 
+    .u-light-text {
+        font-size: 36px;
+    }
+            
+}
